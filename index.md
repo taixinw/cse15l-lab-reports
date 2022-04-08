@@ -31,4 +31,4 @@ This is a list of ordered things
 
 [Lab Report 1](lab-report-1-week-2.html)
 
-[Lab Report 1](https://taixinw.github.io/cse15L-Lec2-example/lab-report-1-week-2.html)
+[Lab Report 1](https://taixinw.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
