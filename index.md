@@ -13,7 +13,9 @@ How are you all doing?
 
 [link to CSE 15L](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule?authuser=0)
 
-![Gerald's Headshot]
+![image](http://url/a.png)
+
+> Blockquote	
 
 This is a list of unordered things
 * one 
