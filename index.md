@@ -32,4 +32,4 @@ This is a list of ordered things
 [Lab Report 1](https://taixinw.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
 
-[A Question Bunny](https://taixinw.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+[A Question Bunny](https://taixinw.github.io/cse15l-lab-reports/Bunny.html)
