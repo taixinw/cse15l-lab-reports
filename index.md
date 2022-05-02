@@ -29,7 +29,7 @@ This is a list of ordered things
 
 **There is a change~~~~~**
 
-[Lab Report 1](https://taixinw.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+[Lab Report 1](https://taixinw.github.io/cse15l-lab-reports/lab-report-2-week-4.md)
 
 
 [A Question Bunny](https://taixinw.github.io/cse15l-lab-reports/Bunny.html)
