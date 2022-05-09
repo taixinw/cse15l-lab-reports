@@ -31,7 +31,7 @@ This is a list of ordered things
 
 [Lab Report 2](https://taixinw.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
-[Lab Report 2](https://taixinw.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+[Lab Report 3](https://taixinw.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
 
 [A Question Bunny](https://taixinw.github.io/cse15l-lab-reports/Bunny.html)
