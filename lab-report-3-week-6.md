@@ -34,13 +34,18 @@ We want to clone and pull from the repository on the remote server so our life w
 
 W need to authenticate GitHub to do this which requires a [token-based login](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) mechanism that work like SSH keys.
 
-The location of my GitHub token is in the `~/.ssh/github_token` file on the ieng6 server.
+This is the public key in local:
 
-![Public/Private keys](images/public-private-keys.png)
+![Public/Private keys](userPublicKey.png)
 
-My public key on GitHub:
+This is the private key in local:
 
-![GitHub token](images/github-token.png)
+![Public/Private keys](userPublicKey.png)
+
+
+This is public token on GitHub:
+
+![GitHub token](githubPublicKey.png)
 
 My commit with the token (the token has been censored):
 
