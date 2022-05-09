@@ -69,8 +69,8 @@ Note:  `-r` copy the whole directory *recursively*.
 
 Next, we run the tests on the server. We will be using the `make test` command after using our newly streamlined SSH process to login.
 
-![running Makefile](images/running-makefile.png)
+![run Makefile](sshTestTry.png)
 
-Of course, we want to do this in one line, because we're cool like that. B)
+Now we do it in one line 
 
-![copy with one line](images/scp-one-line.png)
+![run one line](sshTestOneLine.png)
