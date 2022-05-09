@@ -47,21 +47,25 @@ This is public token on GitHub:
 
 ![GitHub token](githubPublicKey.png)
 
-My commit with the token (the token has been censored):
+Commit with the token:
 
-![Commit](images/commit.png)
+![Commit](tryCommit.png)
 
 The commit reflected on GitHub:
 
 [Commit](https://github.com/Atlae/markdown-parse/commit/8e9c28d033f6e877b6fcc6f6f19fc81f3df55f42)
 
+
+
 ## Copy whole directories with `scp -r`
 
-Here's the task that we originally meant to do that we've been building up to. We want to be able to run the [markdown-parse](https://github.com/Atlae/markdown-parse) repository on the ieng6 server.
+We want to run the [markdown-parse] repository on the ieng6 server.
 
-First, we copy the whole directory to the server. Notice that the `-r` flag is used to copy the whole directory *recursively*, and that includes many of the Git objects.
+The first step is copy the whole directory to the server. 
 
-![copying whole directory](images/scp-whole-directory.png)
+![copy directory with -r.](copy-r.png)
+Note:  `-r` copy the whole directory *recursively*.
+
 
 Next, we run the tests on the server. We will be using the `make test` command after using our newly streamlined SSH process to login.
 
