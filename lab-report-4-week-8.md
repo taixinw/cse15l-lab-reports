@@ -13,7 +13,9 @@ Repo links to the MarkdownParse files:
 - - - 
 ### Snippet 1
 
-The expected result for this implementaion:
+The expected result for this implementaion: <br/>
+
+
 ![snnipet1](snnipet1.png)
 
 Snippet1 test in the MarkdownTest file:
@@ -36,7 +38,9 @@ Check if there are open parenthesis is on the next index.
 
 - - -
 ### Snippet 2
-The expected result for this implementaion:
+The expected result for this implementaion:<br/>
+
+
 ![snnipet2](snnipet2.png)
 
 Snippet2 test in the MarkdownTest file:
@@ -62,7 +66,8 @@ To fix this problem, a small change of code is needed.
 - - - 
 ### Snippet 3
 
-The expected result for this implementaion:
+The expected result for this implementaion:<br/>
+
 
 ![snnipet3](snnipet3.png)
 
