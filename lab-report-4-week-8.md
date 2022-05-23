@@ -38,7 +38,7 @@ Check if there are open parenthesis is on the next index.
 
 - - -
 ### Snippet 2
-The expected result for this implementaion:<br/>
+The expected result for this implementaion:  <br/>
 
 
 ![snnipet2](snnipet2.png)
