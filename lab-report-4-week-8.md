@@ -1,4 +1,5 @@
-# Markdown File Review
+# CSE 12 - Week 8 Lab report 4
+## Markdown Parse Tests
 - - -
 > Overview: Review two Markdown parse.
  3 implementations were made to each file to discover issues.
@@ -12,10 +13,10 @@ Repo links to the MarkdownParse files:
 - - - 
 ### Snippet 1
 
-This implementaion should produce the following result
+The expected result for this implementaion:
 ![snnipet1](snnipet1.png)
 
-the test was written in the MarkdownTest file
+Snippet1 test in the MarkdownTest file:
 ```
     @Test
     public void testsnippet1() throws IOException {
@@ -25,19 +26,20 @@ the test was written in the MarkdownTest file
     }
 
 ```
-**Test Output**
-#### MarkdownParse 1 - Mine
+### **Test Output**
+#### MarkdownParse 1
 ![output1](s1output.png)
 
-
-I have nerver consider the senerio where brackets could be inside of name of the link. To fix this issue bigger change of code is needed. A loop is needed to search for the last close bracket. After the index of the last close bracket is located, the program can verify if open parenthesis is on the next index.
+Failed because I didn't consider the case for brackets inside of a name for a link. To fix this issue need a big change (>10 lines code change) is needed. 
+Need to have a loop to search for the last close bracket. Locate the index of the last close bracket.
+Check if there are open parenthesis is on the next index.
 
 - - -
 ### Snippet 2
-This implementaion should produce the following result
+The expected result for this implementaion:
 ![snnipet2](snnipet2.png)
 
-the test was written in the MarkdownTest file
+Snippet2 test in the MarkdownTest file:
 ```
     @Test
     public void testsnippet2() throws IOException {
@@ -47,18 +49,24 @@ the test was written in the MarkdownTest file
     }
 
 ```
-**Test Output**
+### **Test Output**
 
-#### MarkdownParse 1 - Mine
+#### MarkdownParse 1 
 ![output2](s2output.png)
 
-To fix this bug, a small change of code is needed. I have never consider parenthesis can be inside the link. After the open parenthesis is loacted, the propgram should search for the las parenthesis and return the text inbewteen them.
+Failed because I didn't consider parenthesis can be inside the link.
+To fix this problem, a small change of code is needed. 
+ After find the open parenthesis, search for the las parenthesis and return the text bewteen them.
+
+
 - - - 
 ### Snippet 3
-This implementaion should produce the following result
+
+The expected result for this implementaion:
+
 ![snnipet3](snnipet3.png)
 
-the test was written in the MarkdownTest file
+Snippet3 test in the MarkdownTest file:
 ```
     @Test
     public void testsnippet3() throws IOException {
@@ -70,7 +78,9 @@ the test was written in the MarkdownTest file
 ```
 **Test Output**
 
-#### MarkdownParse 1 - Mine
+#### MarkdownParse 1 
 ![output3](s3output.png)
 
-To fix this bug, a big change of code is required. Beacuse there is a link inside another link, which is a scenrio that was never considered before.
+Failed because I didn't consider the case that a link inside another link.
+To fix this problem, a big change of code is required. 
+Possible solution: after find the open parenthesis, check inside, if there are ".com" inside, return the string that connected to ".com" and ignore the other texts. 

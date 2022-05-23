@@ -29,9 +29,11 @@ This is a list of ordered things
 
 **There is a change~~~~~**
 
-[Lab Report 2](https://taixinw.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
+[Lab Report 2 week 4](https://taixinw.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
-[Lab Report 3](https://taixinw.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+[Lab Report 3 week 6](https://taixinw.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+
+[Lab Report 4 week 8](https://taixinw.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
 
 [A Question Bunny](https://taixinw.github.io/cse15l-lab-reports/Bunny.html)
