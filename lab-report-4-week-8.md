@@ -34,7 +34,14 @@ Snippet1 test in the MarkdownTest file:
 
 Failed because I didn't consider the case for brackets inside of a name for a link. To fix this issue need a big change (>10 lines code change) is needed. 
 Need to have a loop to search for the last close bracket. Locate the index of the last close bracket.
-Check if there are open parenthesis is on the next index.
+Check if there are open parenthesis is on the next index. <br/>
+
+
+#### MarkdownParse 2 (Reviewed)
+
+![Reviewed1](s1Review.png)
+
+
 
 - - -
 ### Snippet 2
@@ -62,6 +69,9 @@ Failed because I didn't consider parenthesis can be inside the link.
 To fix this problem, a small change of code is needed. 
  After find the open parenthesis, search for the las parenthesis and return the text bewteen them.
 
+#### MarkdownParse 2 (Reviewed)
+
+![Reviewed2](s2Review.png)
 
 - - - 
 ### Snippet 3
@@ -88,4 +98,10 @@ Snippet3 test in the MarkdownTest file:
 
 Failed because I didn't consider the case that a link inside another link.
 To fix this problem, a big change of code is required. 
-Possible solution: after find the open parenthesis, check inside, if there are ".com" inside, return the string that connected to ".com" and ignore the other texts. 
+Possible solution: after find the open parenthesis, check inside, if there are ".com" inside, return the string that connected to ".com" and ignore the other texts.
+
+
+
+#### MarkdownParse 2 (Reviewed)
+
+![Reviewed3](s3Review.png)
