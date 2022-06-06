@@ -35,5 +35,6 @@ This is a list of ordered things
 
 [Lab Report 4 week 8](https://taixinw.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
+[Lab Report 5 week 10](https://taixinw.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
 
 [A Question Bunny](https://taixinw.github.io/cse15l-lab-reports/Bunny.html)
